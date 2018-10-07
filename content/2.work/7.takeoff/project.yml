@@ -1,0 +1,82 @@
+title: RMN Takeoff
+
+date: 2013
+
+background_color: 42484D
+
+content: |
+ Takeoff was the result of a very short 'hack-day' project initiated by RetailMeNot.Inc and British Airways. To celebrate the innaugural direct flight from London to Austin, a team of developers and designers were tasked with building a functioning application aboard the 787 Dreamliner. 
+ 
+ Our app used pre-existing data from RetailMeNot and VoucherCodes.co.uk to display travel specific offers to savvy travellers around the world. The iPad acted as an ideal platform to make use of local cached data to save offers, redeem without connectivity and produce bespoke travel itineraries for the user. The app was finished in the 9 hour flight time and presented functioning in Austin.
+001.jpg:
+  layout: screen
+
+
+001a.jpg:
+  layout: screen
+
+002.jpg:
+  layout: screen-small
+
+
+002a.jpg:
+  layout: screen
+
+
+004a.jpg:
+  layout: screen
+
+
+006a.jpg:
+  layout: screen
+
+003.jpg:
+  layout: screen-small
+
+
+004.jpg:
+  layout: screen-small
+
+
+005.jpg:
+  layout: screen-small
+
+006.jpg:
+  layout: screen-small
+
+
+007.jpg:
+  layout: screen-small
+
+008.jpg:
+  layout: screen-small
+
+fade.jpg:
+  layout: cancel
+
+meta: Extra Info
+
+# Extra info heading #
+
+detail: Year:
+
+non_link: 2013
+
+# Extra info heading #
+
+detail2: Client:
+
+link_text2: RetailMeNot
+
+link2: http://www.retailmenot.com
+
+
+# Extra info heading #
+
+detail3: Tools:
+
+non_link3: Illustrator, After Effects
+
+
+
+

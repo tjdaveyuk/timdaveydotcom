@@ -1,0 +1,17 @@
+name: Tim Davey
+# title:
+page_description: Portfolio of UI design, branding and web design from a small town british lad.
+default_keywords: Tim Davey, Web designer, web design, London, Illustration, Branding, UI, UX design
+
+analytics: UA-54084308-1
+
+assets_css: ['public/css/style.css']
+assets_js: ['public/js/app.js']
+
+
+
+email: |
+  <mail@timdavey.com>
+telephone: 00000 000 000
+twitter: |
+  [Twitter](http://twitter.com/tjdaveyuk "Tim Davey on Twitter")

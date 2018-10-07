@@ -1,0 +1,80 @@
+title: New York
+date: 17/07/14
+
+content: |
+  The Trans-Canada trip started oddly enough in New York. I had a list of things to do and see the size of my arm, thanks to friends and family that raved about the place. We stayed in Bedstuy, somewhere I was told was still a little rough around the edges, the prodominantly jewish neighbourhood reminded me a little of Hackney.
+
+  We choose to walk most places. We averaged about 12 miles a day, walking through most of west Brooklyn, Williamsburg, Queens, Flushing and a chunk of Manhattan. Highlights included Katz' deli, eating sichzuan in Flushing, catching Poncho Sanchez at the Blue Note and spotting Malcolm Gladwell in Fort Greene park. 
+
+  We left on the coach bound for Boston feeling exhausted, despite barely scratching the surface of what NY had to offer. Can't wait to return. 
+
+# Image layouts - two-up, two-thirds, one-third, full, cancel #
+
+
+001.jpg:
+  layout: full
+
+003.jpg:
+  layout: full
+
+
+006.jpg:
+  layout: full
+
+010.jpg: 
+  layout: two-thirds
+
+011.jpg: 
+  layout: one-third
+
+
+014.jpg: 
+  layout: two-up1
+
+015.jpg: 
+  layout: two-up2
+
+016.jpg: 
+  layout: full
+
+017.jpg: 
+  layout: two-up1
+
+018.jpg: 
+  layout: two-up2
+
+020.jpg: 
+  layout: two-up1
+
+021.jpg: 
+  layout: two-up2
+
+026.jpg: 
+  layout: full
+
+028.jpg: 
+  layout: two-thirds
+
+029.jpg: 
+  layout: one-third
+
+035.jpg: 
+  layout: two-thirds
+
+036.jpg: 
+  layout: one-third
+
+
+037.jpg: 
+  layout: full
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

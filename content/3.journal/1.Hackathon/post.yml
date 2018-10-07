@@ -1,0 +1,40 @@
+title: British Airways / RMN UK Hackathon
+
+date: 05/04/14
+
+content: |
+  To celebrate the inaugural British Airways flight from London to Austin, [a small team](<http://techcitynews.com/2014/03/05/transatlantic-hackathon-kicks-off-first-london-austin-direct-flight/>) from the London office were invited to take part in a very short hack project on-board the flight. The new route aims to connect two big tech cities, reduce travel time and generally improve [the experience](<http://www.eturbonews.com/42538/british-airways-launches-new-nonstop-service-austin-london-march>) for business fliers. A tonne of planning was carried out before before actually getting on board. We were originally promised Wi-Fi, which we would use to set up a server and actually deploy and merge files. We later discovered this wouldn't be possible. Most of the design assets were prepared well before boarding, it was just a case of getting it built and working. Regardless, it felt like a huge race against the clock. Somehow, we completed the task in good time. On arriving at Austin Bergstrom airport the press were out in force. We barely had time to present the project, catch up with some pals and grab a bite to eat before heading back to London and back into the office. 
+
+# Image layouts - two-up, two-thirds, one-third, full, cancel #
+
+001.jpg:
+  layout: full
+
+002.jpg:
+  layout: two-thirds
+
+003.jpg:
+  layout: one-third
+
+005.jpg:
+  layout: full
+
+007.jpg:
+  layout: cancel
+
+008.jpg:
+  layout: two-up1
+
+009.jpg:
+  layout: two-up2
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

@@ -1,0 +1,35 @@
+title: The Solent
+date: 12/07/14
+
+content: |
+  I recently decided to leave my job, my friends and London, to travel. Half my family live in Canada and I'm ashamed to say I've only met most of them a handful of times. I'm hopping across the pond this summer to explore country and get back in touch with my roots. Gulp.
+
+  Before setting off, I had a few weeks back in my home town of Locks Heath. When not planning the trip, I got to see some old pals, do some fishing and hang out with my father and his classic car club. Here's a few snaps from the past few weeks before I set off.
+  
+# Image layouts - two-up, two-thirds, one-third, full, cancel #
+
+000.jpg:
+  layout: full
+
+006.jpg:
+  layout: full
+
+010.jpg: 
+  layout: two-thirds
+
+011.jpg: 
+  layout: one-third
+
+012.jpg: 
+  layout: full
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

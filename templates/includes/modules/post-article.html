@@ -1,0 +1,26 @@
+<article class="type-post">
+
+	{# hero image #}
+	{% if page.hero_image %}
+	<figure class="hero">
+		<img src="{{ page.hero_image.time_string }}">
+	</figure>
+	{% endif %}
+
+	{# post content #}
+	<div class="page-content">
+		<h1>{{ page.title }}</h1>
+		{{ page.content }}
+	</div>
+
+	{# sidebar? #}
+
+	{# post media #}
+	{% if page.images or page.video or page.html %}
+	<div class="page-media">
+		{# include media #}
+		{% include 'includes/assets/media.html' %}
+	</div>
+	{% endif %}
+
+</article>

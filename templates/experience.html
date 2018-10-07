@@ -1,0 +1,44 @@
+{# extend default template #}
+{% extends "default.html" %}
+
+{% block content %}
+<section class="{{ page.template_name }}">
+
+	{# Project Info #}
+	<div class="minor">
+		<h1>{{ page.title }}</h1>
+		{{ page.content }}
+		<a href="mailto:mail@timdavey.com">Get in contact</a>
+	</div>
+	<div class="major">
+		<div class="entry">
+		<p class="date">2015 ~ 2016</p>
+		<p class="firm">Student.com</p>
+		<p class="position">Lead Product Designer</p>
+		</div>
+		<div class="entry">
+		<p class="date">2014 ~ 2015</p>
+		<p class="firm">Boticca.com</p>
+		<p class="position">Lead UI Designer</p>
+		</div>
+		<div class="entry">
+		<p class="date">2011 ~ 2014</p>
+		<p class="firm">RetailMeNot, .Inc</p>
+		<p class="position">Product Designer</p>
+		</div>
+		<div class="entry">
+		<p class="date">2010 ~ 2011</p>
+		<p class="firm">Weedoo Media</p>
+		<p class="position">Digital Designer</p>
+		</div>
+		<div class="entry">
+		<p class="date">2007 ~ 2010</p>
+		<p class="firm">University of Brighton</p>
+		<p class="position">Ba ( Hons ) Illustration</p>
+		</div>
+	</div>
+
+</section>
+{% endblock content %}
+
+

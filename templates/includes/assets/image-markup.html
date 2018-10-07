@@ -1,0 +1,12 @@
+<figure class="media{% if image.layout %}  media-layout  media-layout--{{ image.layout}}{% else %} media-layout--single {% endif %}">
+
+	<img class="image" src="{{ image.time_string }}" alt="{{ image.name }}" width="{{ image.width }}" height="{{ image.height }}"/>
+
+	{# image caption #}
+	{% if image.caption and display_caption == true %}
+	<figcaption class="media__caption">
+		<p>{{ image.caption }}</p>
+	</figcaption>
+	{% endif %}
+
+</figure>

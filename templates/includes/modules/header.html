@@ -1,0 +1,29 @@
+{# Site Header #}
+<header>
+	<div class="wrap">
+		<a class="id" href="/index">Tim Davey</a>
+		<nav>
+			{% for child in page.root %}
+				{% if child.is_current == true %}
+					<a class='current'>{{ child.title }}</a>
+					{% else %}
+					<a href="{{ child.url }}">{{ child.title }}</a>
+				{% endif %} 
+			{% endfor %}
+		</nav>
+	{# Burger Menu #}
+		<nav class="touch">
+			<div class="burger-bg"></div>
+			<div class="burger">☰</div>
+				<div class="items">
+					{% for child in page.root %}
+						{% if child.is_current == true %}
+						<a><h1 class="current">{{ child.title }}</h1></a>
+						{% else %}
+						<a href="{{ child.url }}"><h1>{{ child.title }}</h1></a>
+						{% endif %} 
+					{% endfor %}
+				</div>
+		</nav>
+	</div>
+</header>

@@ -1,0 +1,62 @@
+title: The White Mountains
+
+
+date: 26/07/14
+
+content: |
+  Passing through the US to Canada meant stopping off in New Hampshire. We chose to stay a week in Lincoln, a retired old ski town that still had a few cabins and motels open for summer guests. 
+
+  Being so close to the White Mountains National Park meant we had plenty to do, despite the miserable weather for the most part. The area is known predominantly for hiking; we managed a few throughout Franconia Notch, Cannon and Loon Mountains, which both keep it's ski lifts running through the summer. Aside from meandering and eating, the week was spent fly fishing in the Pemigewasset River and looking for wildlife. We'd been warned by the cabin manager of the braver Black Bears in the area, though never managed to see one. Or a Moose, Deer, Caribou or Wolves.
+
+  Go to The White Mountains to hike, fish, hunt and take photos, but don't expect to see any wildlife. Oh, and when you do go, stay [here](<http://www.greenvillagecabins.com/>).
+
+# Image layouts - two-up1, two-up2, two-thirds, one-third, full, cancel #
+
+001.jpg:
+  layout: full
+
+002.jpg:
+  layout: two-up1
+
+003.jpg:
+  layout: two-up2
+
+013.jpg:
+  layout: full 
+
+019.jpg:
+  layout: two-up1
+
+020.jpg:
+  layout: two-up2
+
+024.jpg:
+  layout: two-up1
+
+025.jpg:
+  layout: two-up2
+
+027.jpg:
+  layout: full 
+
+032.jpg:
+  layout: two-up1
+
+033.jpg:
+  layout: two-up2
+
+034.jpg:
+  layout: full
+
+035.jpg:
+  layout: full
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

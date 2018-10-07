@@ -1,0 +1,84 @@
+title: Toronto	
+
+date: 16/08/14
+
+content: |
+  I was really looking forward to visiting Toronto for the first time. I'd read it was home to some of the better restaurants in Canada and the best museums and galleries. We grabbed an AirBnb place near 'The Beaches' neighbourhood, about 40 mins from downtown. It's a well-off area, surrounded by bars, restaurants and surf shops, though more importantly it's right on the sandy beaches of Lake Ontario.
+
+  Toronto is a really big city. Having been in Montreal the week prior, it felt gigantic in comparison. The transit system is a hot mess of subway trains, 'street cars' or trams and busses which snake about the city under a cobweb of overhead power lines. There's also crazies, lots of crazies, everywhere. 
+
+# Image layouts - two-up1, two-up2, two-thirds, one-third, full, cancel #
+
+002.jpg:
+  layout: full
+
+003.jpg:
+  layout: two-up1
+
+004.jpg:
+  layout: two-up2
+
+009.jpg:
+  layout: full
+
+012.jpg:
+  layout: two-thirds
+
+013.jpg:
+  layout: one-third
+
+015.jpg:
+  layout: two-up1
+
+016.jpg:
+  layout: two-up2
+
+017.jpg:
+  layout: full
+
+020.jpg:
+  layout: full
+
+025.jpg:
+  layout: two-up1
+
+026.jpg:
+  layout: two-up2
+
+029.jpg:
+  layout: full
+
+035.jpg:
+  layout: two-up2
+
+033.jpg:
+  layout: full
+
+034.jpg:
+  layout: two-up1
+
+035.jpg:
+  layout: two-up2
+
+038.jpg:
+  layout: full
+
+043.jpg:
+  layout: two-up1
+
+044.jpg:
+  layout: two-up2
+
+046.jpg:
+  layout: full
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

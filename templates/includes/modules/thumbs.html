@@ -1,0 +1,16 @@
+<section class="{{ page.template_name }}">
+  {% for page in page.paginated_items %}
+  <section class="post-preview">
+    <a class="overlay" href="{{ page.url }}">
+      <figure class="media  project-thumb" style="background-image: url('{% if page.thumb.time_string %}{{ page.thumb.time_string }}{% else %}{{ page.hero_image.time_string }}{% endif %}')">
+              <div class="post-overlay">
+        <h1 class="overlay">{{ page.title }}<br/>{{ page.date }}</h1>
+      </div>
+    {% endif %}
+      </figure>
+    </a>
+  </section>
+  {% endfor %}
+</section>
+{% include 'includes/navigation/pagination.html' %}
+

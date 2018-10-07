@@ -1,0 +1,23 @@
+{# reverse the order of images if specified #}
+{% if page.reverse %}
+	{% set images = page.images|reverse %}
+{% else %}
+	{% set images = page.images %}
+{% endif %}
+	
+	
+
+{# begin image loop #}
+{% for image in images %}
+
+	{# actual image #}
+	{% include 'includes/assets/image-markup.html' with { 'display_caption' : true } %}
+
+	{# content after the image #}
+	{% if image.content %}
+	<div class="page-content  page-content--mid-flow">
+		{{ image.content }}
+	</div>
+	{% endif %}
+
+{% endfor %}

@@ -1,0 +1,25 @@
+{% if page.siblings %}
+<section class="pagination">
+	{% for prev_link in page.previous_sibling %}
+		{% if page.is_first %}
+			{# do nothing #}
+		{% else %}
+			<a class="pagination-item{% if page.is_last %} pagination-item-full-width{% endif %}" href="{{ prev_link.url }}">
+
+			<h2>&#8592 {{ prev_link.title }}</h2></a>
+		{% endif %}
+	{% endfor %}
+
+	{% for next_link in page.next_sibling %}
+		{% if page.is_last %}
+			{# do nothing #}
+		{% else %}
+			<a class="pagination-item{% if page.is_first %} pagination-item-full-width{% endif %}" href="{{ next_link.url }}">
+			<h2>{{ next_link.title }} &#8594</h2></a>
+		{% endif %}
+	{% endfor %}
+</section>
+
+{% endif %}
+
+

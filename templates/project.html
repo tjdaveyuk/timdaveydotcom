@@ -1,0 +1,39 @@
+{# extend default template #}
+{% extends "default.html" %}
+
+{% block content %}
+<section class="post">
+
+	<div class="minor">
+		<h1 class="post">{{ page.title }}</h1>
+		<ul class="meta">
+			<li> {{ page.detail }} <em>{{ page.non_link }}</em> <a href="{{ page.link }}">{{ page.link_text }}</a></li>
+			<li> {{ page.detail2 }} <em>{{ page.non_link2 }}</em> <a href="{{ page.link2 }}">{{ page.link_text2 }}</a></li>
+			<li> {{ page.detail3 }} <em>{{ page.non_link3 }}</em> <a href="{{ page.link3 }}">{{ page.link_text3 }}</a></li> 
+			<li> {{ page.detail4 }} <em>{{ page.non_link4 }}</em> <a href="{{ page.link4 }}">{{ page.link_text4 }}</a></li> 
+			
+		</ul>
+
+	</div>
+	<div class="major">{{ page.content }}</div>
+</section>
+<section class="{{ page.template_name }}">
+<div class="page-project">
+	{# post media #}
+	{% if page.images or page.video or page.html %}
+		
+			
+			{# include media #}
+			{% include 'includes/assets/media.html' %}
+		
+	{% endif %}
+	{# include pagination #}
+			</div>
+
+
+</section>
+	{% include 'includes/navigation/pagination-blog.html' %}
+
+{% endblock content %}
+
+

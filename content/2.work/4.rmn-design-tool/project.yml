@@ -1,0 +1,52 @@
+title: Preview Tool
+
+date: 2013
+
+content: |
+
+  As part of the design team at RMN, it was our responsibility to present and communicate our ideas and solutions effectively. The reboot of this valuable web app for the meant faster, cleaner presentation of work and acted as a central area for product managers to track and feedback on design progress. Using Goodle Drive as a file sharing foundation, we could ensure that files stay in sync and without conflicts.
+
+  The app was designed with simplicity in mind; being purely an internal tool meant we could forgo unnecessary visual elements. Clear UI signals, a snappy navigation and ability to upload on the fly were of key importance.
+
+
+001.png:
+  layout: screen
+
+002.png:
+  layout: screen
+
+003.png:
+  layout: screen
+
+004.png:
+  layout: screen
+
+fade.jpg:
+  layout: cancel
+
+meta: Extra Info
+
+# Extra info heading #
+
+detail: Year:
+
+non_link: 2012
+
+# Extra info heading #
+
+detail2: Client:
+
+link_text2: RetailMeNot.Inc
+
+link2: http://www.retailmenot.com
+
+
+# Extra info heading #
+
+detail3: Tools:
+
+non_link3: Sketch
+
+
+
+

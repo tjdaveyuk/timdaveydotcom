@@ -1,0 +1,56 @@
+title: Forte.co Events
+
+date: 2013
+
+background_color: 0ba0d1
+
+content: |
+  Forte.co is a self initiated project aiming to promote art and theatre events in London. The responsive site lists local events on a map and generates an affiliate link to the venue's website to purchase tickets. Forte.co uses a combination of public API databases from the likes of Eventbrite and The Guardian to help capture a broad list of events.
+
+  Visually, the site makes good use of high-res press imagery to feature prominent shows on the landing page. Synopsis, dates and prices are pulled in from the API to give the user a run down of the show information. A casual copy tone help to give the site a little personality and hopes to make the usually unapproachable  more casual and inviting. 
+
+
+
+000.png:
+  layout: screen
+
+001.jpg:
+  layout: screen
+
+002.jpg:
+  layout: screen
+
+003.jpg:
+  layout: screen
+
+
+004.jpg:
+  layout: screen
+
+fade.jpg:
+  layout: cancel
+
+meta: Extra Info
+
+# Extra info heading #
+
+detail: Year:
+
+non_link: 2013
+
+# Extra info heading #
+
+detail2: Client:
+
+non_link2: N/A
+
+
+# Extra info heading #
+
+detail3: Tools:
+
+non_link3: Sketch, Illustrator, Sublime
+
+
+
+

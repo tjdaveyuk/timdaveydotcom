@@ -1,0 +1,58 @@
+{# extend default template #}
+{% extends "default.html" %}
+
+{% block content %}
+
+{# {% set page = get('/blog') %} #}
+
+{# limit posts to just the first #}
+{# {% for page in slice(page.children, 0, 1) %} #}
+{# {% for page in page.paginated_items %} #}
+
+
+<section class="hero">
+
+	{# Add hero image #}
+	{% if page.hero_image %}
+		<figure class="media  hero">
+			<img src="{{ page.hero_image.time_string }}">
+		</figure>
+	{% endif %}
+</section>
+
+
+<section class="{{ page.template_name }}">
+	{# Use centered layout #}
+	<div class="minor">
+		<h1 class="post">{{ page.title }}</h1>
+		<p class="post-date">{{ page.date }}</p>
+	</div>
+	<div class="major">{{ page.content }}</div>
+</section>
+	
+	<!-- post media -->
+	{% if page.images or page.video or page.html %}
+	<div class="page-media-constrain">
+	
+	<!--  include media -->
+	{% include 'includes/assets/media.html' %}
+
+	</div>
+	{% endif %}
+	
+	
+
+{# {% endfor %} #}
+
+{# <section class="pagination">
+	{% if page.next_page %}
+		<a class="pagination__item{% if page.prev_page == null %} pagination__item--full-width{% endif %}" href="{{ page.next_page }}">&#8592 Older Posts</a>
+	{% endif %}
+	{% if page.prev_page %}
+		<a class="pagination__item{% if page.next_page == null %} pagination__item--full-width{% endif %}" href="{{ page.prev_page }}">Recent Posts &#8594</a>
+	{% endif %}
+</section> #}
+
+{% include 'includes/navigation/pagination-blog.html' %}
+
+{% endblock content %}

@@ -1,0 +1,12 @@
+loop_type: images
+
+title:
+page_description: Portfolio of UI design, branding and web design from a small town british lad.
+content:
+social: |
+  [Email](<mailto:mail@timdavey.com>) - [Linkedin](<https://www.linkedin.com/in/tim-davey-394b43a8>) - [Twitter](<http://twitter.com/tjdaveyuk>) - [Tumblr](<http://blog.timdavey.com/>) - [Dribbble](<https://dribbble.com/TimDavey/>)
+
+bypass_cache: false
+
+profile.jpg:
+  layout: profile

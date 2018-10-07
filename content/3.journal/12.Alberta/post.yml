@@ -1,0 +1,37 @@
+title: Alberta
+
+date: 08/09/14
+
+content: |
+  We arrived in Calgary to a few inches of snow, so the first few days in the mountains were bleak. Once the weather cleared up we had a chance to do some exploring, heading a few hours west from the city, we passed through Canmore, Banff and up to Jasper National Park. Once the snow cleared, we got really lucky with the weather also the wildlife, catching glimpses of Bald Eagles, Elk, Deer, Mountain Sheep, spawning Salmon, Chipmunks and a young Black Bear.
+
+# Image layouts - two-up1, two-up2, two-thirds, one-third, full, cancel #
+
+010.jpg:
+  layout: full 
+
+016.jpg:
+  layout: full 
+
+022.jpg:
+  layout: full 
+
+025.jpg:
+  layout: full 
+
+029.jpg:
+  layout: full
+
+034.jpg:
+  layout: full  
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

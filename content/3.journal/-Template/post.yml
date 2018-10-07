@@ -1,0 +1,28 @@
+title: Post	Title
+
+date: dd/mm/yy
+
+content: |
+  Post paragraph
+  
+# Image layouts - two-up1, two-up2, two-thirds, one-third, full, cancel #
+
+001.jpg:
+  layout: 
+
+002.jpg:
+  layout: 
+
+003.jpg:
+  layout: 
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

@@ -1,0 +1,12 @@
+{% if page.siblings %}
+<section class="pagination">
+  {% if page.next_page %}
+    <a class="pagination-item{% if page.prev_page == null %} pagination-item-full-width{% endif %}" href="{{ page.next_page }}">
+    <h2>&#8592 Older Posts</h2></a>
+    {% endif %}
+    {% if page.prev_page %}
+    <a class="pagination-item{% if page.next_page == null %} pagination-item-full-width{% endif %}" href="{{ page.prev_page }}">
+    <h2>Recent Posts &#8594</h2></a>
+  {% endif %}
+</section>
+{% endif %}

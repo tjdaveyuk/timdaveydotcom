@@ -1,0 +1,84 @@
+title: Boticca.com
+
+date: 2014-2015
+
+background_color: 313131
+
+
+content: | 
+ Kiyan, the founder of Boticca met a jewellery designer from the Atlas mountains who would travel to the souqs in Marrakesh three times a week to sell her jewellery. Boticca aimed to launch a retail marketplace for designers all over the world to sell their pieces on a global scale.
+
+ Working closely with the head of product, I was involved in overhauling the UX and UI on site, from applying the site to a responsive column grid and refining he typography to re-structuring the user checkout flow. In addition to improving the front-end, myself and the product team also set up Boticca Team Tools, an app which would allow the logistics staff to track orders, issue refunds and message customers directly. 
+
+ During this time, I also completed a full redesign of the seller dashboard. A rich web app which allowed sellers to upload product imagery, pricing, write their own content and launch it live on their Boticca store without the need of a moderator. 
+
+000.png:
+  layout: screen
+
+001.jpg:
+  layout: screen
+
+002.jpg:
+  layout: screen
+
+002a.jpg:
+  layout: screen
+
+002b.jpg:
+  layout: screen
+
+002c.jpg:
+  layout: mobile-1
+
+002d.gif:
+  layout: mobile-2
+
+003.jpg:
+  layout: screen
+
+003a.png:
+  layout: mobile-1
+
+003b.jpg:
+  layout: mobile-2
+
+
+004.png:
+  layout: screen
+
+005.png:
+  layout: screen
+
+006.png:
+  layout: screen
+
+007.png:
+  layout: screen
+
+008.png:
+  layout: screen
+
+
+
+
+meta: Extra Info
+
+# Extra info heading #
+
+detail: Years:
+
+non_link: 2014/2015
+
+# Extra info heading #
+
+detail2: Client:
+
+link_text2: Boticca.com
+
+link2: http://boticca.com
+
+
+
+
+
+

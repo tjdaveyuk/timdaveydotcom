@@ -1,0 +1,42 @@
+title: British Columbia
+
+date: 01/10/14
+
+content: |
+ We drove up through Alberta to BC as the weather started to get a little colder. We just missed the Salmon run but caught a glimpse of those who never made it as far as the spawning grounds. We spent some time in Revelstoke where we took a helicopter ride up to a glacier. 
+
+ After a week or so, we made our way out to Vancouver Island to explore the pacific coast. The weather wasn’t on our side, though we heard from the locals that is rarely is, mimicking that of the Uk ironically. 
+
+ On Vancouver island we continued to fish for what remained of the Salmon, had another close encounter with a black bear and got some very cold surfing in. 
+
+# Image layouts - two-up1, two-up2, two-thirds, one-third, full, cancel #
+
+000.jpg:
+  layout: full 
+
+
+006.jpg:
+  layout: full 
+
+009.jpg:
+  layout: two-thirds
+
+010.jpg:
+  layout: one-third
+
+012.jpg:
+  layout: full
+
+019.jpg:
+  layout: full 
+
+# Extra info heading #
+
+meta:
+
+detail:
+
+link_text:
+
+link: 
+

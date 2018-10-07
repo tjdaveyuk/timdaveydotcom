@@ -1,0 +1,69 @@
+{% spaceless %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+{# Head #}
+<head>
+<meta charset="utf-8">
+
+
+
+{# Prefect DNS #}
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+
+
+
+{# Styles #}
+<link rel="stylesheet" type="text/css" href="/public/css/style.css">
+
+
+
+{# Meta Data #}
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>{% if page.title %}{{ page.title }} - {% endif %}{{ page.name }}</title>
+<meta name="description" content="{{ page.page_description }}">
+<meta name="keywords" content="{{ page.default_keywords }}, {{ page.slug }}{% for tag in page.tags %}, {{ tag }}{% endfor %}">
+<meta name="author" content="{{ page.name }}">
+
+
+
+{# Social Data #}
+{% include 'includes/modules/meta-social.html' %}
+
+</head>
+
+
+
+{# Header #}
+{% block navigation %}
+{% include 'includes/modules/header.html' %}
+{% endblock navigation %}
+
+
+
+{# Body #}
+<body class="{{ page.template_name }}">
+
+  {% block content %}
+    {{ page.content }}
+  {% endblock content %}
+
+</body>
+
+
+
+{# Scripts #}
+<script src="/public/js/libs/jquery-1.10.2.min.js"></script>
+<script src="/public/js/libs/modernizr.min.js"></script>
+<script src="/public/js/libs/scripts.js"></script>
+
+
+</html>
+
+{% endspaceless %}

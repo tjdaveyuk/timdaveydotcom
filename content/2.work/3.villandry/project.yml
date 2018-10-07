@@ -1,0 +1,57 @@
+title: Villandry Home
+
+date: 2010
+
+background_color: 8D3F4F
+
+content: |
+
+  Specialising in homeware and gifts, Villandry Home offers a true mix of luxury objects, combining contemporary and classical items from a modest store in West Sussex. Villandry approached Weedoo Media in search of a full eCommerce package, a lightweight CMS and scalable layout. 
+
+  The final site is a clean, sophisticated store that takes advantage of high-end photography and pack shots. CSS3 'multiple backgrounds' offers attractive hover transitions to better view each item and a custom Drupal CMS served as an ideal platform for the store team to update stock and edit descriptions. 
+
+
+000.png:
+  layout: screen-small
+
+001.jpg:
+  layout: screen
+
+002.jpg:
+  layout: screen
+
+003.jpg:
+  layout: screen
+
+004.png:
+  layout: screen
+
+fade.jpg:
+  layout: cancel
+
+
+meta: Extra Info
+
+# Extra info heading #
+
+detail: Year:
+
+non_link: 2010
+
+# Extra info heading #
+
+detail2: Client:
+
+link_text2: Villandry Home
+
+link2: http://www.villandryhome.co.uk
+
+# Extra info heading #
+
+detail3: Tools:
+
+non_link3: Photoshop, Illustrator
+
+
+
+
